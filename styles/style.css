@@ -1,0 +1,42 @@
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #80A8F3;
+    text-shadow: 3px 3px 1px black;
+    /*horizontal offset, vertical offset, blur radius, color*/
+    font-size: 60px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2, h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+p, li {
+    font-size: 28px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+html {
+    background-color: #80A8F3;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto; /*The first value affects the element's top and bottom side
+    and the second value the left and right side*/
+    background-color: #FFD12D;
+    padding: 0 20px 20px 20px; /*Top, right, bottom, left*/
+    border: 5px solid black; /*Width, style and color*/
+}
